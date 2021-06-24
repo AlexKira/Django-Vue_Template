@@ -6,11 +6,11 @@ A template for working with a Django backend with a Vue.Js frontend
 python3 -m venv venv && source venv/bin/activate \
 pip3 install django djangorestframework \
 cd backend \
-make run \
+make run 
 
 #------VueJs-Frontend-------#
 cd frontend \
 npm install \
-npm run serve \
+npm run serve 
 
 
